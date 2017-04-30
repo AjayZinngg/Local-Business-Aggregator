@@ -3,13 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3307
--- Generation Time: May 31, 2016 at 07:56 AM
--- Server version: 5.6.14
+-- Generation Time: May 31, 2016 at 07:56 AM-- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -20,10 +18,9 @@ SET time_zone = "+00:00";
 -- Database: `localstorefinder`
 --
 
--- --------------------------------------------------------
+ -- --------------------------------------------------------
 
---
--- Table structure for table `localstore`
+---- Table structure for table `localstore`
 --
 
 CREATE TABLE IF NOT EXISTS `localstore` (
@@ -39,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `localstore` (
 --
 
 INSERT INTO `localstore` (`name`, `email`, `storename`, `tags`, `descr`) VALUES
-('harshith', 'harshith', 'kirana', 'ghjk', 'This is good place');
+j('aj', 'aj@gmail.com', 'kirana', 'ghjk', 'This is good place');
 
 -- --------------------------------------------------------
 
@@ -65,14 +62,9 @@ CREATE TABLE IF NOT EXISTS `localstore1` (
 --
 
 INSERT INTO `localstore1` (`id`, `name`, `email`, `storename`, `tags`, `address`, `descr`, `lat`, `lng`) VALUES
-(1, 'harshit', 'harshit', 'kirana1', 'good', '', 'very good', 0.000000, 0.000000),
-(2, 'anne', 'anne', 'peru', 'tag', '', 'fgjfjgfigijfgifguif', 12.863811, 77.665421),
-(3, 'anshul', 'anshul@gmail.com', 'tirke', 'manga', '', 'intelligent', 12.864106, 77.665306),
-(4, 'Jawad', 'jazzie@gmail.com', 'kirani', 'good', '', 'excellent', 12.864359, 77.666306),
-(5, 'jazzy', 'jazzyjawad', 'dell', 'party', '', 'when is the party', 12.869718, 77.664360),
-(6, 'harshith', 'harshithmaiya', 'bakery', 'good', '', 'very excellent', 12.859663, 77.619942),
-(7, 'test', 'test', 'test', 'test', '', 'test', 12.862850, 77.671524),
-(8, 'jahsd', 'ahsbjhqbas@gmaill.com', 'jhbasjhb', 'gsh', 'gshgsd', 'aysaashjv', 12.863591, 77.662048);
+(1, 'ajay', 'ajay@gmail.com', 'kirana1', 'good', '', 'very good', 0.000000, 0.000000),
+(2, 'Arnold', 'arnine@gmail.com', 'peru', 'tag', '', 'fgjfjgfigijfgifguif', 12.863811, 77.665421),
+(3, 'Mark', 'mark@gmail.com', 'Mark supermarket ', 'grocery', 'Buckminster Drive', 'Green', 12.864106, 77.665306),
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
