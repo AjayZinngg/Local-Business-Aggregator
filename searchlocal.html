@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Local Stores</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="searcharea">
+			<label for="searchtext">Search for local stores</label>
+			<input type="text" id="searchtext" placeholder="tags/desc"></input>
+		</div>
+		<div class="radiusKm">
+			<label for="radiusKm">Enter radius in KM</label>
+			<input type="text" id="radiusKm" placeholder="radius in KM"></input>
+		</div>
+		<div>
+			<button id="searchbutton" type="button">Search</button>
+		</div>
+		<div id="update">
+		</div>
+		<div id="map1"></div>
+	</div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD779gbO5R4A5Nh7II8sI_Nk6XLN15oCVQ"></script>
+	<script type="text/javascript" src="searchscript.js"></script>
+</body>
+</html>
